@@ -1,0 +1,129 @@
+{
+  "application_name": {
+    "searchPatterns": ["cloudfoundry:$.application_name", "env:K_SERVICE"]
+  },
+  "cloudObjectStorage_apikey": {
+    "searchPatterns": [
+      "env:service_cloudObjectStorage:$.apikey",
+      "file:/server/localdev-config.json:$.cloudObjectStorage_apikey"
+    ]
+  },
+  "cloudObjectStorage_endpoints": {
+    "searchPatterns": [
+      "env:service_cloudObjectStorage:$.endpoints",
+      "file:/server/localdev-config.json:$.cloudObjectStorage_endpoints"
+    ]
+  },
+  "cloudObjectStorage_iam_apikey_description": {
+    "searchPatterns": [
+      "env:service_cloudObjectStorage:$.iam_apikey_description",
+      "file:/server/localdev-config.json:$.cloudObjectStorage_iam_apikey_description"
+    ]
+  },
+  "cloudObjectStorage_iam_apikey_name": {
+    "searchPatterns": [
+      "env:service_cloudObjectStorage:$.iam_apikey_name",
+      "file:/server/localdev-config.json:$.cloudObjectStorage_iam_apikey_name"
+    ]
+  },
+  "cloudObjectStorage_iam_role_crn": {
+    "searchPatterns": [
+      "env:service_cloudObjectStorage:$.iam_role_crn",
+      "file:/server/localdev-config.json:$.cloudObjectStorage_iam_role_crn"
+    ]
+  },
+  "cloudObjectStorage_iam_serviceid_crn": {
+    "searchPatterns": [
+      "env:service_cloudObjectStorage:$.iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.cloudObjectStorage_iam_serviceid_crn"
+    ]
+  },
+  "cloudObjectStorage_resource_instance_id": {
+    "searchPatterns": [
+      "env:service_cloudObjectStorage:$.resource_instance_id",
+      "file:/server/localdev-config.json:$.cloudObjectStorage_resource_instance_id"
+    ]
+  },
+  "cloudObjectStorage_serviceInfo": {
+    "searchPatterns": [
+      "env:service_cloudObjectStorage:$.serviceInfo",
+      "file:/server/localdev-config.json:$.cloudObjectStorage_serviceInfo"
+    ]
+  },
+  "cloudant_apikey": {
+    "searchPatterns": [
+      "env:CLOUDANT_APIKEY",
+      "env:service_cloudant:$.apikey",
+      "file:/server/localdev-config.json:$.cloudant_apikey"
+    ]
+  },
+  "cloudant_host": {
+    "searchPatterns": [
+      "env:CLOUDANT_HOST",
+      "env:service_cloudant:$.host",
+      "file:/server/localdev-config.json:$.cloudant_host"
+    ]
+  },
+  "cloudant_iam_apikey_description": {
+    "searchPatterns": [
+      "env:CLOUDANT_IAM_APIKEY_DESCRIPTION",
+      "env:service_cloudant:$.iam_apikey_description",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_description"
+    ]
+  },
+  "cloudant_iam_apikey_name": {
+    "searchPatterns": [
+      "env:CLOUDANT_IAM_APIKEY_NAME",
+      "env:service_cloudant:$.iam_apikey_name",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_name"
+    ]
+  },
+  "cloudant_iam_role_crn": {
+    "searchPatterns": [
+      "env:CLOUDANT_IAM_ROLE_CRN",
+      "env:service_cloudant:$.iam_role_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_role_crn"
+    ]
+  },
+  "cloudant_iam_serviceid_crn": {
+    "searchPatterns": [
+      "env:CLOUDANT_IAM_SERVICEID_CRN",
+      "env:service_cloudant:$.iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_serviceid_crn"
+    ]
+  },
+  "cloudant_password": {
+    "searchPatterns": [
+      "env:CLOUDANT_PASSWORD",
+      "env:service_cloudant:$.password",
+      "file:/server/localdev-config.json:$.cloudant_password"
+    ]
+  },
+  "cloudant_port": {
+    "searchPatterns": [
+      "env:CLOUDANT_PORT",
+      "env:service_cloudant:$.port",
+      "file:/server/localdev-config.json:$.cloudant_port"
+    ]
+  },
+  "cloudant_url": {
+    "searchPatterns": [
+      "env:CLOUDANT_URL",
+      "env:service_cloudant:$.url",
+      "file:/server/localdev-config.json:$.cloudant_url"
+    ]
+  },
+  "cloudant_username": {
+    "searchPatterns": [
+      "env:CLOUDANT_USERNAME",
+      "env:service_cloudant:$.username",
+      "file:/server/localdev-config.json:$.cloudant_username"
+    ]
+  },
+  "cloudant_serviceInfo": {
+    "searchPatterns": [
+      "env:service_cloudant:$.serviceInfo",
+      "file:/server/localdev-config.json:$.cloudant_serviceInfo"
+    ]
+  }
+}
