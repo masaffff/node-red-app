@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8:8.8-1067.1696517599 as build
+FROM registry.access.redhat.com/ubi8:8.7-1090.1679482075 as build
 
 RUN  dnf module install --nodocs -y nodejs:18 python39 --setopt=install_weak_deps=0 --disableplugin=subscription-manager \
     && dnf install --nodocs -y make gcc gcc-c++  --setopt=install_weak_deps=0 --disableplugin=subscription-manager \
